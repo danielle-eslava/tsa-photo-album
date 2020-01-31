@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "tsaphotoalbum1",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authtsaphotoalbum1e2586ac6",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
